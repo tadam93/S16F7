@@ -27,7 +27,7 @@ prompt APPLICATION 87537 - Data Management Project
 -- Application Export:
 --   Application:     87537
 --   Name:            Data Management Project
---   Date and Time:   21:44 Monday April 25, 2016
+--   Date and Time:   21:50 Monday April 25, 2016
 --   Exported By:     TREVOR.ADAM93@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -39,7 +39,7 @@ prompt APPLICATION 87537 - Data Management Project
 --   Pages:                     16
 --     Items:                   61
 --     Processes:               32
---     Regions:                 34
+--     Regions:                 33
 --     Buttons:                 31
 --     Dynamic Actions:          7
 --   Shared Components:
@@ -107,8 +107,8 @@ wwv_flow_api.create_flow(
 ,p_browser_frame=>'D'
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
-,p_last_updated_by=>'APONCHER@MAC.COM'
-,p_last_upd_yyyymmddhh24miss=>'20160425205053'
+,p_last_updated_by=>'TREVOR.ADAM93@GMAIL.COM'
+,p_last_upd_yyyymmddhh24miss=>'20160425214833'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -9979,22 +9979,8 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
-,p_last_updated_by=>'MAESTASVICTOR@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20160419200902'
-);
-wwv_flow_api.create_page_plug(
- p_id=>wwv_flow_api.id(26546241323080288335)
-,p_plug_name=>'New'
-,p_region_template_options=>'#DEFAULT#:t-Region--scrollBody'
-,p_component_template_options=>'#DEFAULT#'
-,p_plug_template=>wwv_flow_api.id(28947214370361037650)
-,p_plug_display_sequence=>20
-,p_include_in_reg_disp_sel_yn=>'Y'
-,p_plug_display_point=>'REGION_POSITION_01'
-,p_menu_id=>wwv_flow_api.id(28947241226942037685)
-,p_plug_source_type=>'NATIVE_BREADCRUMB'
-,p_menu_template_id=>wwv_flow_api.id(28947235991262037671)
-,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
+,p_last_updated_by=>'TREVOR.ADAM93@GMAIL.COM'
+,p_last_upd_yyyymmddhh24miss=>'20160425214833'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(28951855181232295463)
