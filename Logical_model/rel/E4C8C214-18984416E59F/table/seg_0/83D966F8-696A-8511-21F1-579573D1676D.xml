@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83D966F8-696A-8511-21F1-579573D1676D" name="P_Parent_child">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>EBA6D208-5FB6-8D45-A19A-E642E15D17BC</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="parent_child_id" id="996433E9-D185-E689-86CB-8FD783F1E25C">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>716B4C3F-1C7B-B659-B72D-C78170DC924A</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="P_Person_person_id1" id="78FE8C73-897F-8AE9-A23E-D40F95541833">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>8BC003BB-5A16-CADC-4C57-2966817B9B80</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04F967CF-F48F-6ABA-ABAC-8C50E9BCF6F7" referredColumn="EA732CA9-18ED-D40E-D572-0705F4D9CB12"/>
+</associations>
+</Column>
+<Column name="P_Person_person_id" id="ED085646-3A22-84D3-F7D4-35B3B05A5D62">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>FBE9BB2A-C108-CCED-3EE9-38BEA361671A</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23A1B65C-FF85-5B91-74DE-9C5E33E2995B" referredColumn="EA732CA9-18ED-D40E-D572-0705F4D9CB12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80E643BB-5BEC-02E8-50EE-565C2B4E2227" name="P_Parent_child_PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>DF0BE6F6-4BD4-18EE-C3A2-A7EC223AF4C5</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996433E9-D185-E689-86CB-8FD783F1E25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AC0BB41-305E-A19D-16C9-0FB26587B25C" name="P_Parent_child_P_Person_FK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>01BBDDB6-5B3C-8DE7-DB46-F664AB6FA200</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED085646-3A22-84D3-F7D4-35B3B05A5D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B763224-12E4-8B69-C346-20C785406941" name="P_Parent_child_P_Person_FKv1">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>B94E8DA3-2D37-D391-3A37-A4370DD83539</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78FE8C73-897F-8AE9-A23E-D40F95541833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

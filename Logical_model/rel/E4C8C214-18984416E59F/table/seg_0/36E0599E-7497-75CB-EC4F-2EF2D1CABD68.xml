@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36E0599E-7497-75CB-EC4F-2EF2D1CABD68" name="P_Projects">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>4A27A57F-3832-AB6F-7A8A-C579FB51F36A</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_no" id="549566BF-D5F4-E7D9-5901-8E9885BE177C">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>B9240FD0-3331-50F4-0DD1-21E633E34D55</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="49C483B9-898C-92C4-22E4-CF1F7CC4B65E">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>074DC87D-3895-0EAE-99A0-1C5528328024</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_active" id="C12B198A-2170-D6FF-7DEF-446C2D80057A">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>CA9AACD5-88D2-822B-3A71-159EDF7B1246</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_month" id="8C373B65-A43D-CF67-9172-6F572DD0B17C">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>1D03BCA5-CA1D-C2F5-75B3-E448F27A272C</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_year" id="68905DB3-100E-68D4-F7C3-F7B35559C49A">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>13CD32F3-1987-8F73-48DE-83EE4D4F13D9</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_person_hours" id="F5F70327-E5D7-9276-DB27-948B0640AA5E">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>BFA00C56-66D9-7888-4930-60F5D73A27E5</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="P_Department_dept_no" id="04D15743-D533-EC9C-2556-278B7A316C23">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>60FB332E-1790-425D-FBCE-4845F7ED361D</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE6C1A46-82E9-E7B3-D308-0C3168C323EF" referredColumn="335587D3-B316-109A-FF1E-8BA30FB36DF7"/>
+</associations>
+</Column>
+<Column name="P_Person_person_id" id="2061FC0A-B4D8-D785-F14D-BA0655D189EF">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>93C0DAA7-C689-04BF-4E71-E57224C7A8FE</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5850563-D2E5-EEF4-D09D-8805956A54DB" referredColumn="EA732CA9-18ED-D40E-D572-0705F4D9CB12"/>
+</associations>
+</Column>
+<Column name="P_Projects_project_no" id="48ACE251-CF24-8BDD-427E-ACA3660DA737">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>77629E64-8FF7-49C3-088F-6AF7BA5BD87E</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFC58C2E-43C3-061A-CF98-F63B83520B40" referredColumn="549566BF-D5F4-E7D9-5901-8E9885BE177C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57C41F2D-1639-BA03-4438-D6B3A416136E" name="P_Projects_PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>A859BCA4-50DD-57A0-6792-8A3F3A9BC12D</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549566BF-D5F4-E7D9-5901-8E9885BE177C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8BCB7FA-27E6-32BD-8782-B96DBEB1CD97" name="P_Projects_P_Department_FK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>AC1FCA45-B141-EC6D-A3AE-7AFDB23C8459</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D15743-D533-EC9C-2556-278B7A316C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDEAC7B0-6054-08DB-29A3-7A9C9BB078D7" name="P_Projects_P_Person_FK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>D9FABD86-9212-4511-7E9D-68D46C97E491</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2061FC0A-B4D8-D785-F14D-BA0655D189EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="601FF336-FF65-6004-E35C-BD89F3A8ED95" name="P_Projects_P_Projects_FK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-11 19:53:55 UTC</createdTime>
+<generatorID>56E07A5A-18A3-8A81-79CC-D6C08256132D</generatorID>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48ACE251-CF24-8BDD-427E-ACA3660DA737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
