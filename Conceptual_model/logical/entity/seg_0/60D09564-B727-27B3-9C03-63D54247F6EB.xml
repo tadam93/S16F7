@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60D09564-B727-27B3-9C03-63D54247F6EB" name="P_Project">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:24:47 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_no" id="A91648BE-F835-F7EC-96B0-E7508D7DD98B">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:24:57 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_title" id="2E18872C-6EA4-4442-9070-172AD2D678DC">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:25:08 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="56FB3410-B11E-EB64-72CB-C3BA8374EFE7">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:33:48 UTC</createdTime>
+<generatorID>D7D3607A-05CF-76A6-D511-08E4539D7137</generatorID>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8C44525-C969-521D-3546-FFA606E54F54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="F24FBA8A-B95C-DEDB-A6E3-1CCB3050804F">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:35:10 UTC</createdTime>
+<generatorID>5F7CDBED-F912-256A-496D-A3B291C0FB03</generatorID>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E1A72BC9-B6CC-E5AF-1926-00E35BE1AC5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_no1" id="DC2326E9-BCB7-EC0A-32C9-CD68647545AC">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:36:00 UTC</createdTime>
+<generatorID>62A3F394-7257-8981-1765-44434932A847</generatorID>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A91648BE-F835-F7EC-96B0-E7508D7DD98B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="357B5A1C-2BA2-9AA3-D0DB-01FD2BC250D3" name="P_Project PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:25:06 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A91648BE-F835-F7EC-96B0-E7508D7DD98B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
