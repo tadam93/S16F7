@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D384333-EFDF-D500-8B10-8D367362B419" name="S16_Person">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:00:28 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="54321306-2A4C-72D4-75FB-CB4C1731EA6A">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:00:45 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="2181F8BE-BD32-0357-465B-CAAE0B8A6B9C">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:01:27 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telephone" id="200E855A-F138-EB66-FFA2-7D9979EF6086">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:01:49 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fax" id="5BDAC6A2-8B3E-E69C-8F5E-F6B133369989">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:02:22 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="CF022E50-2103-FD25-0D7B-6B507A400DCE">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:03:03 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="8B57126C-81FC-7C4D-0A1A-337A659BC353">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:03:38 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="2F6677BA-1FDD-CE87-BC3B-5C94B73FE6C5">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:04:05 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="DB29D1A6-7482-7AFC-1E55-384B5A66AEC1">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:04:32 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="7C8D9258-D293-559A-70DF-CBC7AF82F2A7">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:04:45 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_id" directorySegmentName="seg_0" id="4B5F3E70-BBAC-1AC1-7A4E-5BDC5F6A7749">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:13:17 UTC</createdTime>
+<generatorID>294E5366-0643-133E-B9D9-BEA26FC1F98E</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<referedAttribute>BD967402-2C82-DC03-ED35-6EA64C2425F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA312F45-CC8F-6DC9-9BE7-417304DBBAE7" name="S16_Person PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:01:02 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54321306-2A4C-72D4-75FB-CB4C1731EA6A</attributeRef>
+<attributeRef>4B5F3E70-BBAC-1AC1-7A4E-5BDC5F6A7749</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

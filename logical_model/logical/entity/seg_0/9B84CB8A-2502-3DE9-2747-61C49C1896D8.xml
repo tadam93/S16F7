@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B84CB8A-2502-3DE9-2747-61C49C1896D8" name="S16_Document">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:15:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="2611CFC7-D05B-0CA9-89AD-E7F74459E8D1">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:15:48 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filename" id="AA20BF4D-CB68-4304-E3E6-8E767C0AF8EA">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:16:11 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_mimetype" id="2A216C22-64FA-5E4C-5CEE-8B7BDF4B5404">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:16:26 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_charset" id="BD7DA3A4-B61B-A4CD-9A62-CB9DEF10A37F">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:17:26 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_blob" id="C15427CD-3306-A8CE-FDFD-AEE1DC2292FB">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:18:49 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_comments" id="07F8830B-FBAB-477C-F1C4-397D4CFDB6AD">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:19:02 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tags" id="D497787A-6968-289A-A6FA-107617B758B5">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:19:21 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_id" id="16D656DB-4119-359A-4690-C112CD43D3E1">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:21:18 UTC</createdTime>
+<generatorID>9DB0EBA7-8EB1-5965-D156-2184E92173E0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>996B4982-50AB-2C29-9B9B-1F9BE26F121D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFA4A1B7-C990-2B29-3C5C-52BFFEB005A4" name="S16_Document PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-02-25 05:16:05 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="F6786D4D-D903-29B5-D9EB-3832AE67021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2611CFC7-D05B-0CA9-89AD-E7F74459E8D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
