@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39576A9D-9FC9-228C-42F1-994EC95638D2" name="P_Project_Employee">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:20:02 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E129884F-E289-692A-37C7-B9D7B607D9E8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB39CFDB-64B3-37B0-38F7-98FA48EF86D8" name="P_Project_Employee PK">
+<createdBy>victormaestas</createdBy>
+<createdTime>2016-04-25 23:36:39 UTC</createdTime>
+<ownerDesignName>Conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="A7AEF09A-FB37-F69E-AEF4-5281000B5876" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>
